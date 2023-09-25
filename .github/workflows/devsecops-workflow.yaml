@@ -3,6 +3,7 @@ on: push
 
 jobs:
   build:
+    permissions: write-all
     runs-on: ubuntu-latest
     name: Run unit tests and SAST scan on the source code 
     steps:
